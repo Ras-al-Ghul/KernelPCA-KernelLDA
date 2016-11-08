@@ -13,6 +13,6 @@ The datasets used for this are:
 
 For the above two files, the Madelon dataset can also be used. Modify the above files based on the info given above.  
 
-3. `svmkernelpca.py` - `numoffeatures`, `newnumoffeatures`, `numofdata` carry the same meaning as above. `numofvaliddata` indicates the number of samples to be considered for testing - from the valid files. There are two sets of the above values, one to be commented out, one for the Arcene dataset and the other for the Madelon dataset. Please comment out/uncomment appropriate sections of the code (`4 lines`) in the `__main__` method. `svm` is used to classify the data. The kernel used for the SVM is again the `rbf` kernel.  
+3. `svmkernelpca.py` - `numoffeatures`, `newnumoffeatures`, `numofdata` carry the same meaning as above. `numofvaliddata` indicates the number of samples to be considered for testing - from the valid files. There are two sets of the above values, one to be commented out, one for the Arcene dataset and the other for the Madelon dataset. Please `comment out/uncomment` appropriate sections of the code (`4 lines`) in the `__main__` method. `svm` is used to classify the data. The kernel used for the SVM is again the `rbf` kernel.  
 
-4. `svmkernellda.py` - `numoffeatures`, `newnumoffeatures` (should be `1` for the 1D LDA space), `numofdata`, `numofvaliddata` carry the same meaning as above. Again, SVM with the rbf kernel is used.
+4. `svmkernellda.py` - `numoffeatures`, `newnumoffeatures` (should be `1` for the 1D LDA space), `numofdata`, `numofvaliddata` carry the same meaning as above. Again, SVM with the rbf kernel is used. Please follow the same steps for `commenting/uncommenting` as above.
